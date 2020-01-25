@@ -322,3 +322,48 @@ nav>div>a{
 .part:nth-child(4){
 	margin-left: 22.5px;
 }
+.about{
+	padding: 0 10%;
+	background: #ececec;
+	text-align: center;
+}
+.heading>h2{
+	font-weight: 600;
+	color: #e1524b;
+	font-size: 40px;
+	padding-top: 60px;
+}
+.heading>p{
+	color: #777777;
+	font-size: 13px;
+}
+.browser{
+	display: grid;
+	margin-top: 60px;
+	grid-template-columns: 3fr 6fr 3fr;
+}
+.browser>div{
+	background-image: url("../img/bg.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.browsertoleft{
+	margin-top: 60px;
+	width: 140%;
+	padding: 33px 0 0 4px;
+}
+.browsertocenter{
+	z-index: 5;
+	padding: 47px 5px 0 5px;
+}
+.browsertoright{
+	margin-top: 60px;
+	width: 140%;
+	margin-left: -43%;
+	z-index: 4;
+	padding: 33px 4px 0 0;
+}
+.browser>div>img{
+	width: 100%;
+	border-radius: 5px;
+}
