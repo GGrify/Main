@@ -421,3 +421,58 @@ nav>div>a{
 	color: #7f8c8c;
 	font-weight: 600;
 }
+.diag>p{
+	font-size: 13px;
+	color: #7f8c8c;
+	padding: 0 15px;
+}
+.diag>p>a{
+	color: #e1524b;
+}
+.diagrams{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr; 
+	text-align: center;
+	color: #7f8c8c;
+	margin-top: 60px;
+}
+.diagrams>div>span{
+	font-size: 30px;
+	font-weight: 900;
+	position: relative;
+	display: block;
+	line-height: 0.8;
+	padding-top: 35px;
+	overflow: hidden;
+}
+.diagrams>div>span:before{
+	content: '';
+	position: absolute;
+    width: 85px;
+    height: 85px;
+    transform: rotate(45deg);
+    border-radius: 75%;
+    left: 18px;
+    top: 0;
+    border-top: 15px solid #76c7c0;
+    border-right: 15px solid transparent;
+    border-left: 15px solid #e2534b;
+    border-bottom: 16px solid transparent;
+}
+.diagrams>div:nth-child(2)>span:before{
+	border-bottom: 15px solid #e2534b;
+	transform: rotate(80deg);
+}
+.diagrams>div:nth-child(3)>span:before{
+	border-bottom: 15px solid #e2534b;
+	transform: rotate(110deg);
+}
+.diagrams>div:nth-child(4)>span:before{
+	border-bottom: 15px solid #e2534b;
+	border-top: 15px solid #e2534b;
+}
+.diagrams>div>h5{
+	margin-top: 10px;
+	font-weight: 900;
+	font-size: 16px;
+}
