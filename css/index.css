@@ -4,6 +4,13 @@
 	margin: 0;
 	font-family: Open Sans;
 }
+a{
+	color: white;
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
 header{
 	display: grid;
 	grid-template-columns: 1fr 2fr;
@@ -475,4 +482,117 @@ nav>div>a{
 	margin-top: 10px;
 	font-weight: 900;
 	font-size: 16px;
+}
+.ourclients{
+	padding: 0 10%;
+	background: #f3f3f3;
+	display: grid;
+	grid-template-columns: 2fr 9fr 1fr 1fr;
+}
+.slide{
+	width: 100%;
+	height: 1px;
+	background: #e1e2e2;
+	margin: auto 0;
+}
+.circle{
+	background: #e1e2e2;
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	margin-top: -4px;
+}
+
+.main_footer{
+	display: grid;
+	grid-template-columns: 4fr 2fr 2fr 4fr;
+	grid-column-gap: 30px;
+	background-color: #76c7c0;
+	padding: 50px 10%;
+	color: white;
+}
+.info p{
+	margin: 20px 0;
+	font-size: 13px;
+	line-height: 20px;
+}
+.before_span{
+	font-size: 13px;
+}
+.after_span{
+	font-weight: 600;
+	margin-left: 15px;
+	font-style: italic;
+	font-size: 20px;
+}
+.company h3{
+	color: #497e79;
+	font-size: 20px;
+	font-weight: bold;
+}
+.company ul{
+	font-size: 13px;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+.company ul li{
+	margin-bottom: 5px;
+}
+.company ul li:before{
+	content: '';
+	width: 8px;
+	display: block;
+	position: absolute;
+	margin-top: 7px;
+	margin-left: -11px;
+	height: 5px;
+	background-image: url(../img/arrow-down.png);
+	transform: rotate(-90deg);
+}
+.blog_block{
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	margin-top: 20px;
+}
+.blog h3{
+	font-weight: normal;
+	font-style: italic;
+	font-size: 20px;
+}
+.blog span{
+	font-weight: bold;
+}
+.blog_block img {
+	width: 70px;
+	height: 70px;
+}
+.blog_block p{
+	font-size: 13px;
+}
+.blog_block time{
+	font-size: 13px;
+	color: #497e79;
+}
+.bottom_footer{
+	height: 50px;
+	background-color: #6ab3ac;
+	padding: 0 10%;
+	display: grid;
+	grid-template-columns: 10fr 2fr;
+}
+.bottom_footer h6{
+	color: white;
+	margin-top: 20px;
+	font-size: 12px;
+}
+.follow{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.follow a{
+	display: block;
+	width: 21px;
+	height: 21px;
+	background-color: #fff;
 }
